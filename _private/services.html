@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Packlink | services</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--website logo, name and moto-->
+            <div class="title">
+                <div class="logo">
+                <img src="_images/BBPF brand logo.png" alt="Packlink Logo">
+                </div>
+                <div class="moto">
+                    <h1>Packlink</h1>
+                    <h2>Your link to the perfect packaging</h2>
+                </div>
+            </div>
+            <!--top navigation panel-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products_services.html">Products and Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="currentpage">Services</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Custom packaging creation</h2>
+            <!--custom form for submitting packaging requests-->
+            <form>
+                <label for="Email">Email:</label><br>
+                <input type="email" id="Email" name="Email" required><br><br>
+                <label for="width">Width in cm:</label><br>
+                <input type="float" id="width" name="width" required><br><br>
+                <label for="height">Height in cm:</label><br>
+                <input type="float" id="height" name="height" required><br><br>
+                <label for="depth">Depth in cm:</label><br>
+                <input type="float" id="depth" name="depth" required><br><br>
+            
+                <input type="radio" id="plastic" name="material" value="plastic" required>
+                <label for="plastic">Plastic</label><br>
+                <input type="radio" id="cardboard" name="material" value="cardboard" required>
+                <label for="cardboard">Cardboard</label><br>
+                <input type="radio" id="paper" name="material" value="paper" required>
+                <label for="paper">Paper</label><br><br>
+
+                <input type="submit" value="submit"><br><br>
+            </form>
+            <p>For More detailed assistance, please submit your enquiry through the <a href="enquiry.html">Enquiry</a> page.</p>
+        </main>
+        <br class="clearfix">
+        <footer>
+            <!--footer navigation panel-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products_services.html">Products and Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p>
+                <script>
+                    var theDate=new Date()
+                    document.write("&copy; " + theDate.getFullYear())
+                    document.write(" - PackLink | Last modified: ")
+                    var theModifiedDate=new Date(document.lastModified)
+                    document.write(theModifiedDate.toDateString())
+                </script>
+                <br>Powered by "EXAMPLE" Web Hosting
+            </p>
+        </footer>
+    </div>
+</body>
+</html>>

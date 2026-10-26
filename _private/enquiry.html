@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | Packlink</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--website logo, name and moto-->
+            <div class="title">
+                <div class="logo">
+                <img src="_images/BBPF brand logo.png" alt="Packlink Logo">
+                </div>
+                <div class="moto">
+                    <h1>Packlink</h1>
+                    <h2>Your link to the perfect packaging</h2>
+                </div>
+            </div>
+            <!--top navigation panel-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products_services.html">Products and Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="currentpage">Enquiry</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>For additional assistance, utilize our contact system below:</p>
+            <br>
+            <p>Please enter personal information and query</p>
+            <!--custom form-->
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="surname">Surname:</label><br>
+                <input type="text" id="surname" name="surname" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name ="email" required><br>
+                <label for="question">Query:</label><br>
+                <input type="text" id="question" name="question"><br><br>
+                <input type="submit" value="submit">
+            </form>
+        </main>
+        <br class="clearfix">
+        <footer>
+            <nav>
+                <!--footer navigation panel-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products_services.html">Products and Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="currentpage">Enquiry</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p>
+                <script>
+                    var theDate=new Date()
+                    document.write("&copy; " + theDate.getFullYear())
+                    document.write(" - PackLink | Last modified: ")
+                    var theModifiedDate=new Date(document.lastModified)
+                    document.write(theModifiedDate.toDateString())
+                </script>
+                <br>Powered by "EXAMPLE" Web Hosting
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

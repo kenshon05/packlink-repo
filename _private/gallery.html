@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Gallery | Packlink</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript/jquery-1.10.2.min.js"></script>
+	<script src="javascript/lightbox-2.6.min.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+    <script src="javascript/modernizr.custom.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--website logo, name and moto-->
+            <div class="title">
+                <div class="logo">
+                <img src="_images/BBPF brand logo.png" alt="Packlink Logo">
+                </div>
+                <div class="moto">
+                    <h1>Packlink</h1>
+                    <h2>Your link to the perfect packaging</h2>
+                </div>
+            </div>
+            <!--top navigation panel-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products_services.html">Products and Services</a></li>
+                    <li class="currentpage">Gallery</li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Gallery</h1>
+            <h3>Custom packaging examples</h3>
+            <!-- Gallery images -->
+            <section class="gallery">
+                <a href="_images/Custom Packaging 1.jpg" data-lightbox="gallery" title="Custom package 1">
+                    <img src="_images/Custom Packaging 1.jpg" alt="Custom package 1" width="300">
+                </a>
+                <a href="_images/Custom Packaging 2.jpg" data-lightbox="gallery" title="Custom package 2">
+                    <img src="_images/Custom Packaging 2.jpg" alt="Custom package 2" width="300">
+                </a>
+                <a href="_images/Custom Packaging 3.jpg" data-lightbox="gallery" title="Custom package 3">
+                    <img src="_images/Custom Packaging 3.jpg" alt="Custom package 3" width="300">
+                </a>
+                <a href="_images/Custom Packaging 4.jpg" data-lightbox="gallery" title="Custom package 4">
+                    <img src="_images/Custom Packaging 4.jpg" alt="Custom package 4" width="300">
+                </a>
+                <a href="_images/Custom Packaging 5.jpg" data-lightbox="gallery" title="Custom package 5">
+                    <img src="_images/Custom Packaging 5.jpg" alt="Custom package 5" width="300">
+                </a>
+            </section>
+                
+        </main>
+        <br class="clearfix">
+        <footer>
+            <!--footer navigation panel-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products_services.html">Products and Services</a></li>
+                    <li class="currentpage">Gallery</li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p>
+                <script>
+                    var theDate=new Date()
+                    document.write("&copy; " + theDate.getFullYear())
+                    document.write(" - PackLink | Last modified: ")
+                    var theModifiedDate=new Date(document.lastModified)
+                    document.write(theModifiedDate.toDateString())
+                </script>
+                <br>Powered by "EXAMPLE" Web Hosting
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
